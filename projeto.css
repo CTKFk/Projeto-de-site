@@ -1,0 +1,249 @@
+header,#box1,body,footer{margin:0;
+	padding:0;}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(projectimages/background.jpg);
+}
+@media screen {
+    #box1{padding: 5%;
+
+    }
+}
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+html{
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+header {
+    
+    padding: 20%;
+    text-align: center;
+    background-image:url(projectimages/Nekoarctop.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    margin: 0;
+}
+#box1 {     
+    background-color: hwb(192 5% 29% / 0.781);
+    background-image: linear-gradient(hwb(209 5% 21% / 0.781), hwb(229 2% 34% / 0.822)); 
+    margin: auto;
+    margin-bottom: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+	font-family:bebas naue;
+    color: rgb(255, 255, 255);
+    padding:5% ;
+}
+figure{
+    width: 50%;
+    min-width: 17.5rem;
+    margin: 0 auto;
+}
+.boxvideo{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin: 0 auto;
+}
+
+.boxvideo iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+section {
+    padding: 50px 20px;
+}
+#Navegação {
+    color:yellow;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    padding: auto;
+    font-family: bebas-naue;
+
+}
+ul#menu li a {text-decoration: none;
+	display:block;
+	margin-left:0;
+    margin-bottom:2px;
+	padding:30px; 
+    color: #fff;
+    text-align: center;
+    
+}
+#menu{
+	transition:0,6s;
+    position: inherit;
+
+}
+ul#menu li a:hover{background-color:#e7cfcfa3; margin-bottom:20px; transition:0.52s; 
+}
+ul#menu li a:focus{background-color:#00ff00;
+}
+ul#menu li a:active{background-color:#070599;
+}
+#menu {text-align: center; 
+} 
+#menu li {display:inline-block;
+}
+ul#menu li a {margin-left:0;margin-bottom:0;
+}
+#menu li a:hover {margin-left:0;
+} 
+
+#opções{
+    margin: auto;
+    color:aqua;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+#sobre{
+    color: rgb(255, 255, 255);
+    font-family: Bebas naue;
+    display: grid;
+           
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr ; 
+    grid-gap: auto; 
+    text-wrap: wrap;
+    grid-template-areas:"h h";
+    grid-template-rows: auto;
+  }
+#voicelines{
+    display: flexbox;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+}
+h2 {
+    grid-column: span 2;
+}
+.texto1{
+    padding: 5%;
+    text-size-adjust:5px;
+
+}
+.movesetvideo{
+    display: block;
+}
+#titlevoicelines{
+    margin-left: 0;
+}
+.listavariação{
+	display: grid;
+	margin:10px;
+	padding:auto;
+    justify-content:center;	
+    font-family:anton;
+    grid-area: auto;
+    grid-template-areas: ".a a";
+    grid-gap: 10px;
+
+}
+img {
+    border: 5px solid;
+    border-color: #562ee6;  
+}
+.perfilgif{
+    border: 0;
+}
+.personalidadegif{
+    border:0
+}
+.allvariationsgif{
+    border: 0;
+}
+#sellproducts{
+	display: grid;
+	margin:10px;
+	padding:auto;
+    justify-content:center;	
+    font-family:anton;
+    grid-area: auto;
+    grid-template-areas: ".a a";
+    grid-gap: 10px;
+}
+section audio {
+    display: block;
+    margin: 10px auto;
+}
+audio{
+    width: 25%;
+}
+#Bibliografia{
+    padding: 3%;
+    margin-bottom: 5%;
+}
+.linkB{
+    color:white;
+}
+.linkB a:link{color: #fff;}
+.linkB a:active{color: yellow;}
+a:visited{color:red;}
+
+footer {
+    background-color: #1e0057db;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.circle {
+    margin: 25%;
+    padding: 40px;
+    height: 10rem;
+    width:10rem ;
+    border:0.3rem solid black;
+    border-radius: 50%;  
+    background-color: white;
+    animation: spin 5s linear infinite;
+    cursor:pointer
+
+}
+
+.Pedro{
+    scale: 1.1;
+    border: none;
+    animation: bounce 300ms linear infinite;
+    margin-top: 15%;
+    
+}
+@keyframes bounce {
+    to{translate: 0 40px}
+    
+}
+@keyframes spin{
+    to {rotate: -1turn};
+}
+
